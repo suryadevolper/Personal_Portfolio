@@ -59,6 +59,22 @@ li a {
     height: 50px;
     color: #11071f;
 }
+#btn a{
+    color: black;
+    margin-left: 14px;
+    margin-top: 2px;
+    font-size: 1.4rem !important;
+    font-family: "Bebas Neue", sans-serif !important;
+  font-weight: 400 !important;
+}
+#btn a:hover{
+    color: rgb(255, 255, 255);
+    margin-left: 14px;
+    margin-top: 2px;
+    font-size: 1.4rem !important;
+    font-family: "Bebas Neue", sans-serif !important;
+  font-weight: 400 !important;
+}
 
 #btn:hover {
     background-color: #11071f;
@@ -350,5 +366,6 @@ p img{
 .footer{
     margin-top: 60px !important;
     display: flex;
+    flex-wrap: wrap !important;
     margin-left: 40px;
 }
